@@ -1,0 +1,144 @@
+[
+    {
+        "title": "Titolo",
+        "name": "title",
+        "type": "search",
+        "column": "libro.titolo"
+    },
+    {
+        "title": "Autore",
+        "name": "author",
+        "type": "search",
+        "column": "autore.nome"
+    },
+    {
+        "title": "ISBN",
+        "name": "isbn",
+        "type": "search",
+        "column": "libro.isbn"
+    },
+    {
+        "title": "Genere",
+        "name": "gender",
+        "type": "search",
+        "column": "genere.nome"
+    },
+    {
+        "title": "Editore",
+        "name": "editor",
+        "type": "search",
+        "column": "editore.nome"
+    },
+    {
+        "title": "Condizione",
+        "name": "condition",
+        "type": "checkbox",
+        "item": {
+            "sql": "true",
+            "column": "condizione"
+        },
+        "column": "condizione.id"
+    },
+    {
+        "title": "Luogo",
+        "name": "place",
+        "type": "checkbox",
+        "item": {
+            "sql": "true",
+            "column": "luogo"
+        },
+        "column": "luogo.id"
+    },
+    {
+        "title": "Includi",
+        "name": "include",
+        "type": "checkbox",
+        "item": [
+            {
+                "nome": "Non Disponibili",
+                "id": "0"
+            },
+            {
+                "nome": "Disponibili",
+                "id": "1"
+            }
+        ],
+        "column": "dati_libro.stato"
+    },
+    {
+        "title": "Risultati",
+        "name": "result",
+        "type": "range",
+        "value": "20",
+        "min": "10",
+        "max": "100"
+    },
+    {
+        "title": "Ordina per",
+        "name": "order",
+        "type": "select",
+        "item": [
+            {
+                "id": 0,
+                "nome": "Titolo A-Z",
+                "visibile": 1,
+                "column": "libro.titolo ASC",
+                "selected": 1
+            },
+            {
+                "id": 1,
+                "nome": "Titolo Z-A",
+                "visibile": 1,
+                "column": "libro.titolo DESC"
+            },
+            {
+                "id": 2,
+                "nome": "Autore A-Z",
+                "visibile": 1,
+                "column": "autore.nome ASC"
+            },
+            {
+                "id": 3,
+                "nome": "Autore Z-A",
+                "visibile": 1,
+                "column": "autore.nome DESC"
+            },
+            {
+                "id": 4,
+                "nome": "Genere A-Z",
+                "visibile": 1,
+                "column": "genere.nome ASC"
+            },
+            {
+                "id": 5,
+                "nome": "Genere Z-A",
+                "visibile": 1,
+                "column": "genere.nome DESC"
+            },
+            {
+                "id": 6,
+                "nome": "Editore A-Z",
+                "visibile": 1,
+                "column": "editore.nome ASC"
+            },
+            {
+                "id": 7,
+                "nome": "Editore Z-A",
+                "visibile": 1,
+                "column": "editore.nome DESC"
+            },
+            {
+                "id": 8,
+                "nome": "Disponibilità 1-9",
+                "visibile": 1,
+                "column": "dati_libro.stato ASC"
+            },
+            {
+                "id": 9,
+                "nome": "Disponibilità 9-1",
+                "visibile": 1,
+                "column": "dati_libro.stato DESC"
+            }
+        ]
+    }
+]

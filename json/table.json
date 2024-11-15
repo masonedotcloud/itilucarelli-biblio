@@ -1,0 +1,46 @@
+[
+    {
+        "title" : "#",
+        "column" : "id_libro"
+    },
+    {
+        "title" : "Titolo",
+        "column" : "titolo"
+    },
+    {
+        "title" : "Autore",
+        "column" : "autori"
+    },
+    {
+        "title" : "Editore",
+        "column" : "editore"
+    },
+    {
+        "title" : "Genere",
+        "column" : "genere"
+    },
+    {
+        "title" : "Codice",
+        "column" : "codice"
+    },
+    {
+        "title" : "Copie",
+        "column" : "copie"
+    },
+    {
+        "title" : "Scaffale",
+        "column" : "scaffale"
+    },
+    {
+        "title" : "Ripiano",
+        "column" : "ripiano"
+    },
+    {
+        "title" : "Luogo",
+        "column" : "luogo"
+    },
+    {
+        "title" : "Condizione",
+        "column" : "condizione"
+    }
+]
